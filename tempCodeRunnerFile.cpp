@@ -1,10 +1,3 @@
-#include<iostream>
-using namespace std;
-
-double gcd(int x, int y);
-
-int main(){
-    int x, y;
     cin >> x >> y;
     cout << gcd(x,y);
     return 0; 
